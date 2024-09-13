@@ -1,38 +1,38 @@
 {
 	"schemaVersion": 1,
-	"id": "lethalcompany",
+	"id": "lethalcraft",
 	"version": "${version}",
-	"name": "LethalCompany",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "LethalCraft",
+	"description": "Bringing Lethal Company monsters and mechanics to Minecraft!",
 	"authors": [
-		"Me!"
+		"Lyra Brown"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://lbrown.info/",
+		"sources": "https://github.com/LyraMakes/MCLethalCompany"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/lethalcompany/icon.png",
+	"icon": "assets/lethalcraft/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"info.lbrown.mc.lethalcompany.LethalCompany"
+			"info.lbrown.minecraft.lethalcraft.LethalCraft"
 		],
 		"client": [
-			"info.lbrown.mc.lethalcompany.LethalCompanyClient"
+			"info.lbrown.minecraft.lethalcraft.LethalCraftClient"
 		]
 	},
 	"mixins": [
-		"lethalcompany.mixins.json",
+		"lethalcraft.mixins.json",
 		{
-			"config": "lethalcompany.client.mixins.json",
+			"config": "lethalcraft.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.6",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {

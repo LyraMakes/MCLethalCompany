@@ -1,4 +1,4 @@
-package info.lbrown.mc.lethalcompany.mixin;
+package info.lbrown.minecraft.lethalcraft.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

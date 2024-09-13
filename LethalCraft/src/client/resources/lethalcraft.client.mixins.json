@@ -1,7 +1,7 @@
 {
 	"required": true,
-	"package": "info.lbrown.mc.lethalcompany.mixin.client",
-	"compatibilityLevel": "JAVA_17",
+	"package": "info.lbrown.minecraft.lethalcraft.mixin.client",
+	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"
 	],
