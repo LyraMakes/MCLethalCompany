@@ -1,5 +1,6 @@
 package info.lbrown.minecraft.lethalcraft;
 
+import info.lbrown.minecraft.lethalcraft.entity.LethalCraftEntities;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -31,5 +32,8 @@ public class LethalCraft implements ModInitializer {
 		LOGGER.info("Initializing effects");
 		LethalCraftEffects.initialize();
 		LOGGER.info("Done initializing effects");
+		LOGGER.info("Initializing entities");
+		LethalCraftEntities.initialize();
+		LOGGER.info("Done initializing entities");
 	}
 }
