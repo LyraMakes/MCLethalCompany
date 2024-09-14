@@ -1,0 +1,13 @@
+{
+  "item.lethalcraft.suspicious_substance": "Suspicious Substance",
+
+  "itemGroup.lethalcraft": "LethalCraft",
+
+  "block.lethalcraft.condensed_dirt": "Condensed Dirt",
+  "block.lethalcraft.facility_door": "Facility Door",
+
+  "effect.lethalcraft.fear": "Fear",
+
+  "sound.lethalcraft.facility_door_open": "Facility Door Opens",
+  "sound.lethalcraft.facility_door_close": "Facility Door Closes"
+}

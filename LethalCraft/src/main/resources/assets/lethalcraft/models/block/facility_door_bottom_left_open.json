@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "bottom": "lethalcraft:block/facility_door_bottom",
+    "top": "lethalcraft:block/facility_door_top"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "facility_door_close": {
+    "subtitle": "sound.lethalcraft.facility_door_close",
+    "sounds": [
+      "lethalcraft:facility_door_close_1"
+    ]
+  },
+  "facility_door_open": {
+    "subtitle": "sound.lethalcraft.facility_door_open",
+    "sounds": [
+      "lethalcraft:facility_door_open_1"
+    ]
+  },
+  "fear_high": {
+    "subtitle": "sound.lethalcraft.fear",
+    "sounds": [
+      "lethalcraft:fear_high"
+    ]
+  },
+  "fear_low": {
+    "subtitle": "sound.lethalcraft.fear",
+    "sounds": [
+      "lethalcraft:fear_low"
+    ]
+  }
+}
